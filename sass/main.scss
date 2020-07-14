@@ -1,7 +1,7 @@
 //UTILITIES mixins functions resets variables 
-@import "utilities/functions";
-@import "utilities/mixins";
 @import "utilities/variables";
+@import "utilities/mixins";
+@import "utilities/functions";
 
 //BASE styles used everywhere with little changes 
 @import "base/normalize";
@@ -9,7 +9,8 @@
 
 
 //LAYOUT layout containers grid systems flex box
-@import "layout/navigation";
+@import "layout/image-grid";
+@import "layout/general";
 
 //COMPONENTS cards navs buttons forms etc
 @import "components/buttons";
