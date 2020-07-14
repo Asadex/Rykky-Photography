@@ -1,4 +1,32 @@
-@import "base/normalize","base/typography","components/buttons",
-"layout/navigation","utilities/functions","utilities/mixins",
-"utilities/variables";
+//UTILITIES mixins functions resets variables 
+@import "utilities/functions";
+@import "utilities/mixins";
+@import "utilities/variables";
+
+//BASE styles used everywhere with little changes 
+@import "base/normalize";
+@import "base/typography";
+
+
+//LAYOUT layout containers grid systems flex box
+@import "layout/navigation";
+
+//COMPONENTS cards navs buttons forms etc
+@import "components/buttons";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
