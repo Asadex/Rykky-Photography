@@ -6,40 +6,70 @@
     // grid-column-gap: 10px;
     margin: auto;
     padding: 2rem 0 4rem 0;
+    @media only screen and (max-width: 768px){
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: repeat(6,30vh);
+    }
 }
 
 .image{
+    cursor: pointer;
     background-size: cover;
     background-position: center;
     width: 100%;
     height:100%;
+    transition: 0.3s ease-in-out;
+    &:hover{
+        transform: scale(1.03);
+    }
 }
 .image1{
     background-image: url(/dist/images/image-grid-1.jpg);
+    @media only screen and (max-width: 768px){
+        grid-area: 2/1/3/2
+    }
 }
 .image2{
     background-image: url(/dist/images/image-grid-3.jpg);
     grid-area: 1/2/3/3;
+    @media only screen and (max-width: 768px){
+        grid-area: 2/2/span 2/3
+    }
 }
 .image3{
     background-image: url(/dist/images/image-grid-6.jpg);
     grid-area: 1/3/2/5;
+    @media only screen and (max-width: 768px){
+        grid-area: 1/1/2/3
+    }
 }
 .image4{
     background-image: url(/dist/images/image-grid-2.jpg);
     grid-area: 2/3/3/4;
+    @media only screen and (max-width: 768px){
+        grid-area: 5/1/6/2
+    }
 }
 
 .image5{
     background-image: url(/dist/images/image-grid-7.jpg);
     grid-area: 2/1/4/2;
+    @media only screen and (max-width: 768px){
+        grid-area: 3/1/span 2/2
+    }
 }
 .image6{
     background-image: url(/dist/images/image-grid-8.jpg);
     grid-area: 3/2/span 2/span 2;
+    @media only screen and (max-width: 768px){
+        grid-area: 6/1/7/span 2
+    }
 }
 .image7{
     background-image: url(/dist/images/image-grid-5.jpg);
     grid-area: 2/4/5/5;
+    @media only screen and (max-width: 768px){
+        grid-area: 4/2/span 2/3
+    }
 }
 
