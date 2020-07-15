@@ -1,17 +1,28 @@
-// .container-fluid{
-//     background: #000428;  /* fallback for old browsers */
-//     background: -webkit-linear-gradient(to right,#000428, #002242, );  /* Chrome 10-25, Safari 5.1-6 */
-//     background: linear-gradient(to right,#000428, #002242, ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-// }
-
 .container-fluid{
     width: 100%;
+    margin: 2rem auto;
 }
 
 .container{
     width: 100%;
     max-width: 1200px;
+    margin: auto;
+}
+.p1{
+    padding: 1rem;
 }
 .text-center{
     text-align: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+.image{
+    max-width:100%;
+    max-height: 100%;
 }

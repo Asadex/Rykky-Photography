@@ -1,0 +1,16 @@
+.about-section{
+    display: grid;
+    grid-template: 100%/ 60% 40%;
+    @media only screen and (max-width:768px){
+        grid-template: 1fr 1fr/ 1fr
+    }
+}
+.about-text{
+    padding:2rem 0;
+}
+
+.about-images{
+    position:relative;
+    padding: 1rem;
+    @media only screen and (max-width:768px){order: -1;}
+}

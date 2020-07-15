@@ -10,7 +10,7 @@
  */
 
  html {
-    line-height: 1.15; /* 1 */
+    line-height: 1.4; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
   }
   
@@ -39,9 +39,9 @@
    */
   
   h1 {
-    font-size: 2.2em;
+    font-size: 2.3rem;
     margin: 0;
-    padding: 0.67em 0;
+    padding: 0.8rem 0;
   }
   
   /* Grouping content
@@ -96,7 +96,7 @@
   
   b,
   strong {
-    font-weight: bolder;
+    font-weight: bold;
   }
   
   /**
