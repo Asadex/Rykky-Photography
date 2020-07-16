@@ -1,16 +1,49 @@
 .about-section{
     display: grid;
+    margin: 2rem 0 ;
     grid-template: 100%/ 60% 40%;
-    @media only screen and (max-width:768px){
-        grid-template: 1fr 1fr/ 1fr
+    @media only screen and (max-width:821px){
+        grid-template: 30rem 1fr/ 100%
     }
 }
 .about-text{
-    padding:2rem 0;
+    padding: 0 1rem;
+    @media only screen and (max-width:821px){
+        grid-area: 2/1/3/2
+    }
+   
 }
-
 .about-images{
-    position:relative;
-    padding: 1rem;
-    @media only screen and (max-width:768px){order: -1;}
+    @media only screen and (max-width:821px){
+        .about-images{
+            grid-area: 1/1/2/2
+        }
+    }
+}
+.irregular-collage{
+    position: relative;
+    text-align: center;
+}
+.about-image1,.about-image2,.about-image3{
+    width: 110px;
+    position: relative;
+    padding: 0rem 0;
+}
+.about-image1{
+    z-index: 1;
+    transform: scale(1.8) rotate(6deg);
+    top: 6rem;
+    left:12.4rem;
+}
+.about-image2{
+transform: scale(2.3) rotate(-3deg);
+top: -2rem;
+left:-3rem;
+
+}
+.about-image3{
+    z-index: 3;
+    transform: scale(2.4) rotate(3deg);
+    top: 15rem;
+    right: 8rem;
 }
