@@ -16,7 +16,8 @@
 .about-images{
     display: grid;
     grid-template: 50% 50%/50% 50% ;
-    
+    grid-gap: 10px;
+    padding-bottom: 1rem ;
     @media only screen and (max-width:821px){
         .about-images{
             grid-area: 1/1/2/2
