@@ -1,0 +1,19 @@
+.contact-section{
+    display: grid;
+    grid-template: 1fr/50% 50%;
+    @media only screen and (max-width:768px) {
+        grid-template: 1fr 1fr/100%;
+    }
+}
+.map{
+    margin: 2rem 1rem ;
+    margin-top:0;
+    @media screen  and (max-width:768px){
+        margin: 2rem 1rem;
+        order:1;
+    }
+}
+
+.contact-form{
+    padding: 0 1rem;
+}
