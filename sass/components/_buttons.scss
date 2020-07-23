@@ -1,0 +1,21 @@
+input,textarea{
+    width:92%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+
+    &:focus{
+        outline:none;
+        border: 1.2px solid rgb(53, 111, 165)
+    }
+}
+
+input[type="submit"]{
+    cursor: pointer;
+    padding: 0.8rem 1rem;
+    border: none;
+    background-color: rgb(7, 82, 105);
+    color:white;
+    &:focus{
+        outline:none;
+    }
+}
