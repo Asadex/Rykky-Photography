@@ -1,8 +1,16 @@
 .contact-section{
+    max-width: 850px;
+    padding: 2rem;
+    margin: 2rem auto;
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow:  5px 8px 18px rgba(0,0,0,0.2);
     display: grid;
-    grid-template: 1fr/50% 50%;
+    grid-template: 1fr/60% 40%;
     @media only screen and (max-width:768px) {
         grid-template: 1fr 1fr/100%;
+        box-shadow: none;
+        padding: 0;
     }
 }
 .map{
