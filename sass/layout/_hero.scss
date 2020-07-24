@@ -1,0 +1,9 @@
+.hero{
+    background-image: url(/dist/images/hero-image.jpg) ,linear-gradient(to right,red,blue);
+    background-size: cover;
+    background-position: center;
+    z-index:-1
+}
+.overlay{
+    background-image: linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.4));
+}
