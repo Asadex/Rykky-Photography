@@ -1,9 +1,26 @@
 .hero{
-    background-image: url(/dist/images/hero-image.jpg) ,linear-gradient(to right,red,blue);
+    background-image: url(/dist/images/hero-image.jpg) ;
     background-size: cover;
     background-position: center;
-    z-index:-1
+    z-index:-1;
+    height: 100vh;
+    max-height: 2000px;
+    @media only screen and (max-width:768px){
+        background-position: 70% 10%;
+    }
 }
 .overlay{
-    background-image: linear-gradient(to right,rgba(0,0,0,0.8),rgba(0,0,0,0.4));
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.9),rgba(0,0,0,0.6));
+    height: 100vh;
+    max-height: 2000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+}
+.hero-text{
+    font-size: 3.5rem;
+}
+button{
+    width: 10rem;
 }
