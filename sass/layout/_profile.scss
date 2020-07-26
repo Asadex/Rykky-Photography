@@ -1,0 +1,19 @@
+.profiles{
+    margin:0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+        @media only screen and (max-width: 768px){
+            flex-flow: column wrap;
+            align-items: center;
+        }
+    
+    &__card{
+        padding:1rem;
+        max-width:28%;
+        text-align: center;
+        @media screen and (max-width:850px){
+            max-width:100%
+        }
+    }
+}

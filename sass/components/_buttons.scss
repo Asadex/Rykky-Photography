@@ -26,3 +26,23 @@ button,input[type="submit"]{
 button{
     border: none;
 }
+.icon{
+    border-radius: 50%;
+    padding:.8rem .9rem;
+    color:white;
+    border: 2px solid white;
+    background-color: $primary-color;
+    cursor: pointer;
+    transition: 0.4s;
+    &:hover{
+        background-color: white;
+        color: $primary-color;
+        border: 2px solid $primary-color
+    }
+    &--twitter{
+        padding: .8rem .75rem;
+    }
+    &--instagram{
+        padding: .8rem .8rem
+    }
+}
