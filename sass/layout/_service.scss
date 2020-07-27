@@ -1,22 +1,38 @@
-.service-container{
-    margin-bottom: 10rem;
-}
 .service{
     position: relative;
     top:2rem;
+    right: 11rem;
+    margin: auto;
     margin-bottom: 16rem;
+    @media only screen and (max-width:812px){
+        display: initial;
+        top:0;
+        right:0
+    }
 }
 .service-image{
+    width: 90%;
+    max-width:850px;
     position:relative;
-    left: 150px;
+    left: 175px;
+    @media only screen and (max-width:812px){
+        width:100%;
+        max-width:100%
+    }
 }
 .trial{
     max-width: 600px;
-    height:100%;
     background-color: white;
-    position:relative;
-    top: 280px;
-    right: 150px;
+    position:absolute;
+    top: 300px;
+    right: -170px;
     padding: 2rem;
     box-shadow: 5px 12px 40px rgba(0,0,0,0.3);
+    @media only screen and (max-width:812px){
+        position: relative ;
+        top:0;
+        right:0;
+        margin: 1rem auto;
+        max-width:80%;
+    }
 }
