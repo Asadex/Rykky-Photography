@@ -25,6 +25,8 @@ button,input[type="submit"]{
 }
 button{
     border: none;
+    
+    box-shadow: 0 5px 0 darken($primary-color,6%)
 }
 .icon{
     border-radius: 50%;

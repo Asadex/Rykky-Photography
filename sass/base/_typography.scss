@@ -1,12 +1,18 @@
 a{
     color: white;
     text-decoration: none;
-    font-family: $open-sans;
-    font-weight: $light-sans;
+    font-family: $montserrat;
+    font-weight: $light-montserrat;
 }
 .lead{
-    font-family: $open-sans;
-    font-weight: $light-sans;
+    font-family: $montserrat;
+    font-weight: $light-montserrat;
+}
+.header{
+    font-family: $playfair-display;
+    font-weight: $light-weight;
+    font-size: 2.8rem;
+    color: $primary-color;
 }
 .light-text{
     color: white;
@@ -19,4 +25,7 @@ a{
 }
 .bold{
     font-weight: $bold-sans;
+}
+.primary-text{
+    color: $primary-color
 }

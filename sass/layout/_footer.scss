@@ -1,0 +1,12 @@
+.footer{
+    margin-top: 80px;
+    margin-bottom: -20px;
+    @media only screen and (max-width:768px) {
+        margin:0 auto;
+    
+    }
+}
+.footer-nav{
+    list-style-type: none;
+    justify-content: space-around;
+}
