@@ -23,17 +23,31 @@
     letter-spacing: 3px;
     font-family: $playfair-display;
     @media only screen and (max-width:768px){
-        font-size: 3.2rem;
+        font-size: 3rem;
+    }
+    @media only screen and (max-width:320px){
+        font-size: 2.5rem;
     }
 }
 .hero-paragraph{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     letter-spacing: 2.6px;
     word-spacing: 1.8px;
     margin-top: -.6rem;
+    @media only screen and (max-width:768px){
+        font-size: 1.1rem;
+        margin-top: -.6rem;
+    }
+    @media only screen and (max-width:320px){
+        font-size: 1rem;
+    }
 }
 .hero-button{
     width: 13rem;
     font-size: 1.4rem;
     margin-top:2rem;
+    @media only screen and (max-width:768px){
+        font-size: 1.1rem;
+        margin-top: 2em;
+    }
 }
