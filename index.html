@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0 , user-scalable=0">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="dist/css/main.css">
     <script src="https://kit.fontawesome.com/6d535a6f72.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="dist/images/logo.jpg" type="image/x-icon">
@@ -22,7 +22,7 @@
         <div class="overlay text-center " >
             <h1 class="lead light-text hero-text">Rikky photography</h1>
             <p class='lead light-text hero-paragraph'>Especialistas en fotos familiares y redes sociales</p>
-            <button class="hero-button"><a href="#contact">Solicitar sesión</a></button>
+            <a href="#contact" class="hero-button">Solicitar sesión</a>
         </div>
     </article>
 
@@ -36,8 +36,8 @@
     <article class="container d-flex flex-column ">
         <header><h2 class="header text-center">Sobre Nosotros</h2></header>
         <!--TEXT SECTION-->
-        <section class="p1 about-section">
-            <section class="about-text">
+        <div class="p1 about-section">
+            <div class="about-text">
             <p class='lead'>Equipo joven dedicado a fotos familiares y con amigos
             y fotos para redes sociales, influencers etc. </p>
 
@@ -45,13 +45,16 @@
                 nuestra pasión y habilidad en este tipo de fotografía:</p>
             <ul>
                 <li class='lead'><b>Fotos familiares y con amigos</b></li>
+            </ul>
             <p class='lead'>Sabemos lo importantes que son algunos momentos, bodas, vacaciones, 
                 una simple sesión de fotos para tener recuerdos juntos.
             </p>
             <p class='lead'>Por ello nos gusta hacer fotos al natural vosotros a vuestras cosas mientras nosotros
                 nos encargamos de sacar lo mejor de vuestros momentos con las personas que más queréis.
             </p> 
+            <ul>
                 <li class='lead'><b>Fotos redes sociales e influencers</b></li>
+            </ul>
             <p class='lead'> Fotos retocadas mostrando vuestra mejor cara en todo tipo de fotos para 
                 redes sociales, Instagram, blogs, canales.
             </p>
@@ -59,15 +62,14 @@
                 viajes, fotos casuales.
             </p>
             <p class='lead'>No dudéis en pedir consejos y sesión de fotos.</p>
-            </ul>
-        </section>
+        </div>
         <!--IMAGES ABOUT US-->
-        <section class="about-images ">
+        <div class="about-images ">
                 <div class=" about-image aimage1"></div>
                 <div class=" about-image aimage2"></div>
                 <div class=" about-image aimage3"></div>            
-        </section>        
-        </section>
+        </div>        
+        </div>
     </article>
 
 
@@ -78,7 +80,7 @@
      <article class="container-fluid ">
         <header><h2 class="header text-center">Qué ofrecemos</h2></header>
         <div class="container service">
-        <img class="image service-image "src="dist/images/studio.jpg" alt="estudio de fotografias" srcset="">
+        <img class="image service-image" src="dist/images/studio.jpg" alt="estudio de fotografias">
         <div class="trial ">
             <h3 class="lead bold">Estudio Profesional</h3>
             <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos modi ipsum odio reprehenderit ipsa dolor quisquam, qui eos voluptatum aut nisi magnam impedit beatae voluptates itaque distinctio incidunt! Voluptate, perferendis!</p>
@@ -94,9 +96,9 @@
     <article class="container">
         <header><h2 class="header text-center">Socios del equipo</h2></header>
 
-        <section class="container profiles">
-            <section class="profiles__card ">
-                <img class="image" src="dist/images/logo.jpg" alt="" srcset="">
+        <div class="container profiles">
+            <div class="profiles__card ">
+                <img class="image" src="dist/images/logo.jpg" alt="logo">
                 <h3 class="lead text-center">Shannon Derk</h3>
                 <p class="lead grey-text text-center">Fotografo</p>
                 <p class="lead grey-text text-center">Especialista en escenas de dron y fotografias de paisajes,
@@ -106,9 +108,9 @@
                 <i class="icon fab fa-facebook-f fa-lg"></i>
                 <i class="icon icon--instagram fab fa-instagram fa-lg"></i>
                 <i class="icon icon--twitter fab fa-twitter fa-lg"></i>
-            </section>
-            <section class="profiles__card ">
-                <img class="image" src="dist/images/logo.jpg" alt="" srcset="">
+            </div>
+            <div class="profiles__card ">
+                <img class="image" src="dist/images/logo.jpg" alt="logo">
                 <h3 class="lead text-center">Bangel Shuganatsu</h3>
                 <p class="lead grey-text text-center">Editor</p>
                 <p class="lead grey-text text-center">Especialista en escenas de dron y fotografias de paisajes,
@@ -118,9 +120,9 @@
                 <i class="icon fab fa-facebook-f fa-lg"></i>
                 <i class="icon icon--instagram fab fa-instagram fa-lg"></i>
                 <i class="icon icon--twitter fab fa-twitter fa-lg"></i>
-            </section>
-            <section class="profiles__card">
-                <img class="image" src="dist/images/logo.jpg" alt="" srcset="">
+            </div>
+            <div class="profiles__card">
+                <img class="image" src="dist/images/logo.jpg" alt="logo">
                 <h3 class="lead text-center">Dylan Corvell</h3>
                 <p class="lead grey-text text-center">Dron</p>
                 <p class="lead grey-text text-center">Especialista en escenas de dron y fotografias de paisajes,
@@ -130,15 +132,15 @@
                 <i class="icon fab fa-facebook-f fa-lg"></i>
                 <i class="icon icon--instagram fab fa-instagram fa-lg"></i>
                 <i class="icon icon--twitter fab fa-twitter fa-lg"></i>
-            </section>
-        </section>
+            </div>
+        </div>
     </article>
 
 
     <!--NUESTRO TRABAJO SECTION-->
     <article class="container-fluid text-center">
         <header><h2 class="header">Portfolio de fotografías</h2></header>
-        <section class="container image-grid">
+        <div class="container image-grid">
             <div class=" grid-image image1"></div>
             <div class=" grid-image image2"></div>
             <div class=" grid-image image3"></div>
@@ -146,7 +148,7 @@
             <div class=" grid-image image5"></div>
             <div class=" grid-image image6"></div>
             <div class=" grid-image image7"></div>
-        </section>
+        </div>
     </article>
 
 
@@ -154,41 +156,38 @@
     <!--CONTACT US SECTION-->
     <article class="container-fluid  "  id="contact">
         <header><h2 class="header text-center">Contacta</h2></header>
-        <section class=" container contact-section">
-            <section class="contact-form">
-                <form action="" class="light-text lead">
-                    
+        <div class=" container contact-section">
+            <div class="contact-form">
+                <form class="light-text lead">
                     <input type="text" name="name" placeholder="Nombre"> <br>
                     <input type="text" name="mail" placeholder="E-mail"> <br>
                     <textarea name="message" id="message" cols="30" rows="6" placeholder="Mensaje"></textarea><br><br>
                     <input type="submit" value="Enviar">
                 </form>
-            </section>
-            <section class="map">
+            </div>
+            <div class="map">
                 <p class="lead grey-text"><i class="fa fa-phone fa-sm" aria-hidden="true"></i> +34 658 590 303</p>
                 <p class="lead grey-text"><i class="fa fa-map-o fa-sm" aria-hidden="true"></i>  Calle de San Roque 17, Navalcarnero , Madrid</p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3043.5217022306115!2d-4.015574984296572!3d40.286373871480556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd41945b9bcc1185%3A0x12594c2d4ea18f22!2skurryfotografo!5e0!3m2!1sen!2ses!4v1595427912480!5m2!1sen!2ses" 
-                width="100%" height="65%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </section>
-        </section>
+                 aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
     </article>
 
 
     
     <!--FOOTER SECTION-->
     <footer class="container footer">
-        <center>
-            <img src="dist/images/logo.jpg" style="width:100px"alt="">
-            <p class="lead bold">Rikky Photography</p>
-            <p class="lead">&#128516; Un saludo a nuestros clientes y esperamos verte pronto &#128516;</p>
+            <img src="dist/images/logo.jpg" style="width:100px" alt="">
+            <span class="lead bold">Rikky Photography</span><br>
+            <span class="lead">&#128516; Un saludo a nuestros clientes y esperamos verte pronto &#128516;</span>
             <ul class="d-flex footer-nav">
                 <li><a class="primary-text" href="#">Legal</a></li>
                 <li><a class="primary-text" href="#">Policy</a></li>
                 <li><a class="primary-text" href="#">Cookies</a></li>
             </ul>
-        </center>
     </footer>
-    <svg class="svg"xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#1C738D" fill-opacity="1" d="M0,64L120,69.3C240,75,480,85,720,122.7C960,160,1200,224,1320,256L1440,288L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
         <path fill="#00036" fill-opacity="1" d="M0,96L120,112C240,128,480,160,720,149.3C960,139,1200,85,1320,58.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
     </svg>
