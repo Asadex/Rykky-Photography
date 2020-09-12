@@ -1,0 +1,25 @@
+#lightbox{
+    position: fixed;
+    top:0;
+    width:100vw;
+    background-color:rgba(0,0,0,0.9845);
+    height:100vh;
+    margin:0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s linear ;
+}
+#lightbox.active{
+    visibility: visible;
+    opacity: 1;
+}
+#closerLightbox{
+    position:absolute;
+    right:0;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+
+
