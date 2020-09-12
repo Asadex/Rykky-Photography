@@ -141,13 +141,13 @@
     <article class="container-fluid text-center">
         <header><h2 class="header">Portfolio de fotografías</h2></header>
         <div class="container image-grid">
-            <div class=" grid-image openersLightbox image1"></div>
-            <div class=" grid-image openersLightbox image2"></div>
-            <div class=" grid-image openersLightbox image3"></div>
-            <div class=" grid-image openersLightbox image4"></div>
-            <div class=" grid-image openersLightbox image5"></div>
-            <div class=" grid-image openersLightbox image6"></div>
-            <div class=" grid-image openersLightbox image7"></div>
+            <div onclick="currentSlide(1)" class=" mySlides grid-image openersLightbox image1"></div>
+            <div onclick="currentSlide(3)" class=" mySlides grid-image openersLightbox image2 "></div>
+            <div onclick="currentSlide(6)" class=" mySlides grid-image openersLightbox image3"></div>
+            <div onclick="currentSlide(2)" class=" mySlides grid-image openersLightbox image4"></div>
+            <div onclick="currentSlide(7)" class=" mySlides grid-image openersLightbox image5"></div>
+            <div onclick="currentSlide(8)" class=" mySlides grid-image openersLightbox image6"></div>
+            <div onclick="currentSlide(5)" class=" mySlides grid-image openersLightbox image7"></div>
         </div>
     </article>
 
@@ -157,19 +157,19 @@
     <!--LIGHTBOX GALLERY-->
     <article class="container-fluid " id="lightbox">
         <span class="light-text lead" id="closerLightbox">&#10005;</span>
-        <span class="light-text lead arrow arrow-left">&#10092;</span>
-        <span class="light-text lead arrow arrow-right">&#10093;</span>
+        <span onclick="plusSlides(-1)" class="light-text lead arrow arrowLeft">&#10092;</span>
+        <span onclick="plusSlides(+1)" class="light-text lead arrow arrowRight">&#10093;</span>
         <div class="square">
-            <img class="image-lightbox" src="dist/images/image-grid-8.jpg" alt="Portfolio image">
+            <img class="image-lightbox" src="" alt="Portfolio image">
         </div>
         <div class="miniatures-grid">
-            <div class="miniature" ><img src="dist/images/image-grid-1.jpg" alt="" class="miniature-image"></div>
-            <div class="miniature" ><img src="dist/images/image-grid-2.jpg" alt="" class="miniature-image"></div>
-            <div class="miniature" ><img src="dist/images/image-grid-3.jpg" alt="" class="miniature-image"></div>
-            <div class="miniature" ><img src="dist/images/image-grid-5.jpg" alt="" class="miniature-image"></div>
-            <div class="miniature" ><img src="dist/images/image-grid-6.jpg" alt="" class="miniature-image"></div>
-            <div class="miniature" ><img src="dist/images/image-grid-7.jpg" alt="" class="miniature-image"></div>
-            <div class="miniature" ><img src="dist/images/image-grid-8.jpg" alt="" class="miniature-image"></div>
+            <div onclick="currentSlide(1)" class="miniature" ><img src="dist/images/image-grid-1.jpg" alt="" class="miniature-image"></div>
+            <div onclick="currentSlide(2)" class="miniature" ><img src="dist/images/image-grid-2.jpg" alt="" class="miniature-image"></div>
+            <div onclick="currentSlide(3)" class="miniature" ><img src="dist/images/image-grid-3.jpg" alt="" class="miniature-image"></div>
+            <div onclick="currentSlide(4)" class="miniature" ><img src="dist/images/image-grid-5.jpg" alt="" class="miniature-image"></div>
+            <div onclick="currentSlide(6)" class="miniature" ><img src="dist/images/image-grid-6.jpg" alt="" class="miniature-image"></div>
+            <div onclick="currentSlide(7)" class="miniature" ><img src="dist/images/image-grid-7.jpg" alt="" class="miniature-image"></div>
+            <div onclick="currentSlide(8)" class="miniature" ><img src="dist/images/image-grid-8.jpg" alt="" class="miniature-image"></div>
         </div>
     </article>
 

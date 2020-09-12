@@ -34,13 +34,13 @@
 .arrow{
     font-size:3rem;
     position: fixed;
-    &-right{
+    &Right{
         right: 2rem;
         @media only screen and (max-width:768px){
             right:.6rem;
         }
     }
-    &-left{
+    &Left{
         left:2rem;
         @media only screen and (max-width:768px){
             left:.6rem;
@@ -57,13 +57,17 @@
 .image-lightbox{
     max-width:100%;
     max-height:100%;
+    position: relative;
+    bottom: 5rem;
 }
 .miniatures-grid{
     max-width:80%;
     height:18%;
     display:grid;
     grid-template: 1fr/ repeat(7,1fr);
-    
+    position: absolute;
+    bottom: 2.6rem;
+    right:10%;
     @media only screen and (max-width:768px){
         grid-template: 1fr 1fr/ repeat(7,33.3%);
         overflow-y: hidden;
