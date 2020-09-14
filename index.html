@@ -19,10 +19,12 @@
 
     <!--LANDING SECTION-->
     <article class="container-fluid hero  m-0" >
-        <div class="overlay text-center " >
+        <div class="overlay  " >
+            <div class="text-center hero-section">
             <h1 class="lead light-text hero-text">Rikky photography</h1>
             <p class='lead light-text hero-paragraph'>Especialistas en fotos familiares y redes sociales</p>
             <a href="#contact" class="hero-button">Solicitar sesión</a>
+            </div>
         </div>
     </article>
 
@@ -180,12 +182,12 @@
     <!--CONTACT US SECTION-->
     <article class="container-fluid  "  id="contact">
         <header><h2 class="header text-center">Contacta</h2></header>
-        <div class=" container contact-section">
+        <div class=" container contact-section" >
             <div class="contact-form">
-                <form class="light-text lead">
-                    <input type="text" name="name" placeholder="Nombre"> <br>
-                    <input type="text" name="mail" placeholder="E-mail"> <br>
-                    <textarea name="message" id="message" cols="30" rows="6" placeholder="Mensaje"></textarea><br><br>
+                <form class="light-text lead" action="mailto:contact@yourdomain.com" enctype="multipart/form-data" method="POST" name="EmailForm">
+                    <input type="text" name="name" size="19" placeholder="Nombre" required> <br>
+                    <input type="email" name="email" placeholder="E-mail" required> <br>
+                    <textarea name="message" id="message" cols="30" rows="6" placeholder="Mensaje" required></textarea><br><br>
                     <input type="submit" value="Enviar">
                 </form>
             </div>

@@ -48,6 +48,7 @@
     }
 
     //ANIMATIONS
-    $(document).ready(function(){$(".overlay").animate({
-        top:0
-    },1400)})
+    $(document).ready(function(){$(".hero-section").animate({
+        top:0,
+        opacity:1,
+    },1000)})
