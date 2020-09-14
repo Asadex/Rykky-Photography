@@ -26,3 +26,17 @@
 .contact-form{
     padding: 0 1rem;
 }
+
+@media only screen and (min-width:768px){
+    .contact-section.animation-element{
+        position: relative;
+        bottom:-200px;
+        //opacity:0;
+        z-index: 1;
+        transition: 0.4s linear; 
+    }
+    .contact-section.animation-element.in-view{
+        //opacity:1;
+        bottom:0;
+    }
+}

@@ -17,3 +17,15 @@
         }
     }
 }
+@media only screen and (min-width:768px){
+    .profiles.animation-element{
+        position: relative;
+        //bottom:-200px;
+        opacity:0;
+        transition: 0.4s linear; 
+    }
+    .profiles.animation-element.in-view{
+        opacity:1;
+        //bottom:0;
+    }
+}

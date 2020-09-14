@@ -37,3 +37,16 @@
         max-width:80%;
     }
 }
+
+@media only screen and (min-width:1024px){
+.trial.animation-element{
+    opacity:0;
+    right:-170px;
+    top:350px;
+    transition: 0.4s linear; 
+}
+.trial.animation-element.in-view{
+    top:300px;
+    opacity:1;
+}
+}
