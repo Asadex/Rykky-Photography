@@ -46,3 +46,8 @@
         if(n>8){slideIndex=1};
         $imageLightbox.attr("src",`dist/images/image-grid-${slideIndex}.jpg`)
     }
+
+    //ANIMATIONS
+    $(document).ready(function(){$(".overlay").animate({
+        top:0
+    },1400)})
