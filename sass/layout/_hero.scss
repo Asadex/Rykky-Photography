@@ -20,10 +20,11 @@
 }
 .hero-text{
     font-size: 3.8rem;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     font-family: $playfair-display;
     @media only screen and (max-width:768px){
         font-size: 3rem;
+        letter-spacing: 3px;
     }
     @media only screen and (max-width:320px){
         font-size: 2.5rem;
