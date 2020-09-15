@@ -6,6 +6,7 @@
     let $arrowLeft = $(".arrowLeft");
     let $imageLightbox = $(".image-lightbox");
     let slideIndex = 1;
+    let serviceIndex = 1;
 
     let $animation_elements = $('.animation-element');
     let $window = $(window);
@@ -71,9 +72,26 @@
     function showSlides(n) {
         if(n==4){slideIndex = 5};
         if(n>8){slideIndex=1};
-        $imageLightbox.attr("src",`dist/images/image-grid-${slideIndex}.jpg`)
+        
+        $imageLightbox.animate({
+            visibility:"hidden",
+            opacity:0,
+        })
+        setTimeout(function(){
+            $imageLightbox.attr("src",`dist/images/image-grid-${slideIndex}.jpg`).animate({
+                visibility:"visible",
+                opacity:1,
+            })
+        },400)
     }
+    //SLIDER SERVICES
 
+    function nextService(){
+        showService(serviceIndex += n);
+    }
+    function showService(){
+
+    }
     //ANIMATIONS
     $(document).ready(function(){$(".hero-section").animate({
         top:0,

@@ -2,6 +2,7 @@
     display: grid;
     margin: 2rem 0 ;
     grid-template: 100%/ 60% 40%;
+    overflow: hidden;
     @media only screen and (max-width:821px){
         grid-template: 30rem 1fr/ 100%
     }

@@ -37,7 +37,15 @@
         max-width:80%;
     }
 }
-
+.arrowTrial{
+    cursor: pointer;
+    position: absolute;
+    top:50px;
+    font-size:1.2rem;
+    font-weight: bolder;
+    &Right{right:60px}
+    &Left{right:100px}
+}
 @media only screen and (min-width:1024px){
 .trial.animation-element{
     opacity:0;
