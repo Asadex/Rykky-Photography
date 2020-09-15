@@ -21,8 +21,10 @@
         max-width:100%
     }
 }
+.serviceTitle{max-width: 80%;}
 .trial{
     max-width: 600px;
+    height: 250px;
     background-color: white;
     position:absolute;
     top: 300px;
@@ -36,6 +38,9 @@
         margin: 1rem auto;
         max-width:80%;
     }
+    @media screen and (max-width:540px){
+        height:100%
+    }
 }
 .arrowTrial{
     cursor: pointer;
@@ -43,9 +48,14 @@
     top:50px;
     font-size:1.2rem;
     font-weight: bolder;
-    &Right{right:60px}
-    &Left{right:100px}
+    &Right{right:60px;
+    @media screen and (max-width:414px){right:30px}}
+    &Left{right:100px;
+    @media screen and (max-width:414px){right:60px}}
+
 }
+
+
 @media only screen and (min-width:1024px){
 .trial.animation-element{
     opacity:0;
