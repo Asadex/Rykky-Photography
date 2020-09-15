@@ -125,17 +125,9 @@
            opacity:0,
         })
 
-        // $serviceTitle.animate({
-        //     visibility:"hidden",
-        //     opacity:0,
-        // })
-        // $serviceDescription.animate({
-        //     visibility:"hidden",
-        //     opacity:0,
-        // })
-        //setTimeout(function(){
-            $serviceTitle.text(services[serviceIndex].title)
-            $serviceDescription.html(services[serviceIndex].description)
+        $serviceTitle.text(services[serviceIndex].title)
+        $serviceDescription.html(services[serviceIndex].description)
+        
         setTimeout(function(){
             $serviceImage.attr("src",services[serviceIndex].image).animate({
                 visibility:"visible",
