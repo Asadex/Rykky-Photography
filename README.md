@@ -8,10 +8,5 @@ I will be using for FRONT END:
 
   - HTML5: usage of semantic tags and added accesibility for an easier navigation, iframes... 
   - SASS: CSS3 preprocessor use of logic, variables , mixins, for a simpler and more maintainable web.
-  - JavaScript: interactivity, light box.
+  - JavaScript: interactivity, sliders, galleries...
 
-
-BACK END features that I want to include in the future with Node.js Mongo etc
-  - Registration 
-  - Online shop 
-  - Orders control
