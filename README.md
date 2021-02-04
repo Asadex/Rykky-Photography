@@ -8,5 +8,6 @@ I will be using for FRONT END:
 
   - HTML5: usage of semantic tags and added accesibility for an easier navigation, iframes... 
   - SASS: CSS3 preprocessor use of logic, variables , mixins, for a simpler and more maintainable web.
-  - JavaScript: interactivity, sliders, galleries...
+  - JavaScript: interactivity, sliders, galleries...\n
+  https://asadex.github.io/Rykky-Photography/
 
